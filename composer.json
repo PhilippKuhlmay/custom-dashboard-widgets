@@ -1,7 +1,7 @@
 {
     "name": "treupo/custom-dashboard-widgets",
     "type": "typo3-cms-extension",
-    "description": "Custom widgets for the TYPO3 10 dashboard,
+    "description": "Custom widgets for the TYPO3 10 dashboard",
     "homepage": "https://www.philippkuhlmay.de",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
