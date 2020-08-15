@@ -10,9 +10,25 @@
         "typo3/cms-core": "^10.4",
         "typo3/cms-dashboard": "^10.4"
     },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "overtrue/phplint": "^1.1"
+    },
     "autoload": {
         "psr-4": {
             "Treupo\\CustomDashboardWidgets\\": "Classes/"
         }
+    },
+    "scripts": {
+        "treupo:cgl": [
+            "echo php-cs-fixer"
+        ],
+        "treupo:test:php:lint": [
+            "phplint --no-cache"
+        ],
+        "treupo:test:php:unit": [
+            "echo phpunittest"
+        ]
     }
 }
