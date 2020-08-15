@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:custom_dashboard_widgets/Resources/Private/Language/Backend.xlf"
+          date="2020-08-15T16:17:39Z" product-name="custom_dashboard_widgets">
+        <header/>
+        <body>
+            <trans-unit id="dashboard.widget.group.title" resname="dashboard.widget.group.title">
+                <target>Treupo</target>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.group.description" resname="dashboard.widget.group.description">
+                <target>Dies erzeugt ihnen eine Anzahl von eigenen Widgets</target>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.seotitle.title" resname="dashboard.widget.group.description">
+                <target>Fehlende SEO Titel</target>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.seotitle.description" resname="dashboard.widget.group.description">
+                <target>Widget zur Anzeige der Seiten, die keinen SEO-Titel haben</target>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.seotitle.widget.title" resname="dashboard.widget.group.description">
+                <target>Fehlende SEO Titel</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,34 +1,39 @@
 {
     "name": "treupo/custom-dashboard-widgets",
-    "type": "typo3-cms-extension",
-    "description": "Custom widgets for the TYPO3 10 dashboard",
-    "homepage": "https://www.philippkuhlmay.de",
-    "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
-    "version": "1.0.0",
-    "require": {
-        "typo3/cms-core": "^10.4",
-        "typo3/cms-dashboard": "^10.4"
-    },
-    "require-dev": {
-        "roave/security-advisories": "dev-master",
-        "friendsofphp/php-cs-fixer": "^2.14",
-        "overtrue/phplint": "^1.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Treupo\\CustomDashboardWidgets\\": "Classes/"
-        }
-    },
-    "scripts": {
-        "treupo:cgl": [
-            "echo php-cs-fixer"
-        ],
-        "treupo:test:php:lint": [
-            "phplint --no-cache"
-        ],
-        "treupo:test:php:unit": [
-            "echo phpunittest"
-        ]
+  "type": "typo3-cms-extension",
+  "description": "Custom widgets for the TYPO3 10 dashboard",
+  "homepage": "https://www.philippkuhlmay.de",
+  "license": ["GPL-2.0-or-later"],
+  "keywords": ["TYPO3 CMS"],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Philipp Kuhlmay",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "typo3/cms-core": "^10.4",
+    "typo3/cms-dashboard": "^10.4"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Treupo\\CustomDashboardWidgets\\": "Classes/"
+    }
+  },
+  "scripts":{
+    "treupo:cgl": [
+      "echo php-cs-fixer"
+    ],
+    "treupo:test:php:lint": [
+      "echo phplint"
+    ],
+    "treupo:test:php:unit": [
+      "echo phpunittest"
+    ]
+  }
 }
