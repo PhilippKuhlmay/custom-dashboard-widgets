@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:custom_dashboard_widgets/Resources/Private/Language/Backend.xlf"
+          date="2020-08-15T16:17:39Z" product-name="custom_dashboard_widgets">
+        <header/>
+        <body>
+            <trans-unit id="dashboard.widget.group.title">
+                <source>Treupo</source>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.group.description">
+                <source>This preset will give you a dashboard containing some custom dashboard widgets.</source>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.seotitle.title">
+                <source>Missing SEO title</source>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.seotitle.description">
+                <source>Widget for displaying pages without SEO title</source>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.seotitle.widget.title">
+                <source>Missing SEO title</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
